@@ -1,0 +1,70 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/itemiv1"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:scaleType="fitXY"
+            android:layout_margin="5px"/>
+            android:gravity="left"
+        />
+        <TextView
+            android:id="@+id/itemtv1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/itemiv1" />
+        <TextView
+            android:id="@+id/itemtv2"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:id="@+id/itemiv2"
+            android:layout_width="100px"
+            android:layout_height="100px"
+            android:scaleType="fitXY"
+            android:layout_margin="5px"/>
+        android:gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/itemtv3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/itemiv2" />
+
+        <TextView
+            android:id="@+id/itemtv4"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="right"
+            android:textSize="20sp"
+            android:textColor="#FF0000"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+
+</LinearLayout>
